@@ -17,7 +17,7 @@ import org.wso2.carbon.identity.core.util.IdentityCoreInitializedEvent;
 import org.wso2.carbon.user.core.service.RealmService;
 
 @Component(
-        name = "single.use.token.interceptor.bundle",
+        name = "enhanced.oidc.authenticator.bundle",
         immediate = true)
 public class BundleComponent {
     private static final Log log = LogFactory.getLog(BundleComponent.class);
